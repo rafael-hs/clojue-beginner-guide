@@ -4,7 +4,7 @@
 
 (defn isCodeValid
   [code]
-  (defstruct coupon  :Name :Discount)
+  (defrecord coupon  [Name Discount])
   (def validCoupon (struct coupon "20Percent" 0.8))
   (if (= (:Name validCoupon) code)
     true
@@ -12,6 +12,7 @@
 
 (defn getCarPrices
   [budget coupon]
+
 
   (if (isCodeValid coupon)
     (do (println "The code is valid")
