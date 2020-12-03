@@ -1,4 +1,4 @@
-(ns clj.learning-clojure.thread)
+(ns learning-clojure.section4.thread)
 
 ;Thread mythread = new Thread () {
 ; public void run() {

@@ -1,5 +1,5 @@
 
-(ns clj.learning-clojure.createClassJava)
+(ns learning-clojure.section4.createClassJava)
 
 (gen-class
  :name learningclojure.MyClass1

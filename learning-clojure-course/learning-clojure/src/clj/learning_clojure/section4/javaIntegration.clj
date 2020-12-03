@@ -1,4 +1,4 @@
-(ns clj.learning-clojure.javaIntegration
+(ns learning-clojure.section4.javaIntegration
   (:import [java.util Date Calendar]))
 
 (System/currentTimeMillis)

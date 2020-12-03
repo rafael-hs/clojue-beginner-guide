@@ -3,11 +3,13 @@
   :url "http://example.com/FIXME"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [[org.clojure/clojure "1.10.1"]]
-  :main learning-clojure.callJavaClass
-  :aot [learning-clojure.callJavaClass]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/core.async "1.3.610"]]
+  :main learning-clojure.section6.types
+  :aot [learning-clojure.section6.types]
   :source-paths ["src/clj"]
   :java-source-paths ["src/java"]
-  ; :target-path "target/%s"
+  :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+

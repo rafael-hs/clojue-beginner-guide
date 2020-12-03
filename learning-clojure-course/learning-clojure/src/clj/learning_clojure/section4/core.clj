@@ -1,4 +1,4 @@
-(ns clj.learning-clojure.core
+(ns learning-clojure.section4.core
   (:gen-class)
   ; (:require [clojure.string :as st])
   (:use clojure.string)
